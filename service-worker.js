@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Geeeva/Weather-forecast/precache-manifest.7a80409181932f29a5b80f17f40874e7.js"
+  "/Weather-forecast/precache-manifest.310acae2d954557538abbdf13554a092.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Geeeva/Weather-forecast/index.html", {
+workbox.routing.registerNavigationRoute("/Weather-forecast/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
