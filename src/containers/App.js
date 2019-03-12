@@ -68,7 +68,6 @@ class App extends Component {
                         const searchWoeidString = searchString.concat(`${this.state.woeid}/`);
                         return fetch(searchWoeidString)
                     }
-                    console.log(this.state.cityData, this.state.woeid);
                 })
                 .then(response => {
                     return response.json()
@@ -90,7 +89,6 @@ class App extends Component {
                         weatherIcon,
                         cityName: ''
                     })
-                    console.log(this.state.weatherData);
                 })
                 .catch(error => console.log(error));
 
